@@ -100,14 +100,36 @@
       </select>
     </div>
         
+
+    <div>
+      <label for="yorum">yorum</label>
+      <textarea name="yorum_giriniz" id="yorum" style="width: 50%;height: 150px; resize: none;"  ></textarea>
+     </div>
+
+
+     <div>
+     <label for="input_browser">Browser</label>
+     <input type="text" name="kullanilan browser" id="input_browser" list="browser">
+      <datalist id="browser">
+        <option value="chrome"></option>
+        <option value="chrome"></option>
+        <option value="chrome"></option>
+        <option value="chrome"></option>
+        <option value="chrome"></option>
+      </datalist>
+     </div>
+      <div>
+        <fieldset>
+          <label for="ad">ad:</label> <br>
+          <input type="text" name="name" placeholder="adiniz"> <br>
+          <label for="soyadi">soyadi:</label> <br>
+          <input type="text" name="surname" placeholder="soyadiniz"> <br>
+
+        </fieldset>
+      </div>
     
-    
 
-
-
-
-
-
+      <input type="reset" value="Reset">
       <input type="submit" value="Gönder" />
     </form>
   </body>
